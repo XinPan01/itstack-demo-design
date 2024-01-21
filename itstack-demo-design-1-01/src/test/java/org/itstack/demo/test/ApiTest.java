@@ -20,6 +20,7 @@ public class ApiTest {
         PrizeController prizeController = new PrizeController();
 
         System.out.println("\r\n模拟发放优惠券测试\r\n");
+
         // 模拟发放优惠券测试
         AwardReq req01 = new AwardReq();
         req01.setuId("10001");
